@@ -162,10 +162,10 @@ def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand
 
 st.set_page_config(
    page_title="AI Resume Analyzer",
-   page_icon='./Logo/logo3.png',
+   page_icon='./resume/Logo/logo3.png',
 )
 def run():
-    img = Image.open('./Logo/logo3.png') 
+    img = Image.open('./resume/Logo/logo3.png') 
     img = img.resize((800,500))
     st.image(img)
     st.title("AI Resume Analyser")

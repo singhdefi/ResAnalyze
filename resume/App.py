@@ -22,7 +22,8 @@
 
 
 # 
-
+import nltk
+nltk.download('stopwords')
 import streamlit as st
 import pandas as pd
 import base64,random
@@ -42,8 +43,7 @@ from Courses import ds_course,web_course,android_course,ios_course,uiux_course,r
 import youtube_dl
 import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
-import nltk
-nltk.download('stopwords')
+
 
 #for yt errors
 #def fetch_yt_video(link):

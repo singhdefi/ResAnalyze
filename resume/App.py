@@ -44,8 +44,6 @@ import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 import nltk
 nltk.download('stopwords')
-# Append the chosen path related to your Anaconda environment
-nltk.data.path.append('/Volumes/Data/anaconda3/envs/myenv/nltk_data')
 
 #for yt errors
 #def fetch_yt_video(link):

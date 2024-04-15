@@ -44,6 +44,10 @@ import youtube_dl
 import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 
+# Add the import for the spaCy model
+import spacy
+spacy.load('en_core_web_sm')
+
 
 #for yt errors
 #def fetch_yt_video(link):

@@ -166,17 +166,19 @@ def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand
 
 st.set_page_config(
    page_title="AI Resume Analyzer",
-   page_icon='./resume/Logo/logo3.png',
+   page_icon='.resume/Logo/Job Watch AI.png',
+   #page_icon='./resume/Logo/logo3.png',
+
 )
 def run():
-    img = Image.open('./resume/Logo/logo3.png') 
-    img = img.resize((800,500))
-    st.image(img)
+    #img = Image.open('./resume/Logo/logo3.png') 
+    #img = img.resize((800,500))
+    #st.image(img)
     st.title("AI Resume Analyser")
     st.sidebar.markdown("# Choose User")
     activities = ["User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    link = '[©Developed by Brammy](https://www.linkedin.com/brahamdeepsingh/)'
+    link = '[©Developed by Brahamdeep](https://www.linkedin.com/in/brahamdeepsingh/)'
     st.sidebar.markdown(link, unsafe_allow_html=True)
 
     # Create the DB
